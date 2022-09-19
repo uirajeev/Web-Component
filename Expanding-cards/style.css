@@ -1,0 +1,13 @@
+body {
+    background-color: #90c7ff;
+  background-image: repeating-radial-gradient(
+    circle,
+    #67a7e7,
+    #77a6d5 45%,
+    transparent 45%,
+    transparent 60%,
+    #73a6d9 60%,
+    #87c2fd 100%
+  );
+  background-size: 10px 10px;
+}

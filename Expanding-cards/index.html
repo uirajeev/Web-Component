@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="card-component.js"></script>
+    <title>Expanding Card</title>
+</head>
+<body>
+    <expanding-card data-cards="[]"></expanding-card>
+    <script>
+        const cards = [
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=2',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=3',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=4',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=5',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=6',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=1',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=2',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=3',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+            {
+                title: 'Card 1',
+                image: 'https://picsum.photos/800/500?random=2',
+                text: 'Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+            },
+        ]
+        const expandCard = document.querySelector('expanding-card');
+        expandCard.init(cards);
+    </script>
+</body>
+</html>
