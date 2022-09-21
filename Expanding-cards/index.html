@@ -9,7 +9,7 @@
     <title>Expanding Card</title>
 </head>
 <body>
-    <expanding-card data-cards="[]"></expanding-card>
+    <expanding-card ></expanding-card>
     <script>
         const cards = [
             {
@@ -59,7 +59,12 @@
             },
         ]
         const expandCard = document.querySelector('expanding-card');
+        // Init 
         expandCard.init(cards);
+        // Get selected index
+        expandCard.addEventListener('cardClicked', (evt) => {
+            console.log(evt);
+        });
     </script>
 </body>
 </html>
