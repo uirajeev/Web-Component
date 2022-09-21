@@ -1,12 +1,14 @@
 # Expanding Card
 ------------------------------------------------------------------------------------------------
  Simple javascript web-component expandable panel which can be used as a coustom html element.
+ ##### Demo:
+**[Demo](https://uirajeev.github.io/Web-Component/Expanding-cards/index.html)**
+**URL: https://uirajeev.github.io/Web-Component/Expanding-cards/index.html**
 ## How to use 
 - Add `card-component.js` file into your `.html` file header
 - Used simply as html element `<expanding-card></expanding-card>`
 
 #### Example:
-
 In your `.html` file `header` add below line.
 ```html
 <script src="card-component.js"></script>
